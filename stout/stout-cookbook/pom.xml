@@ -8,7 +8,7 @@
         <version>2.9.0-SNAPSHOT</version>
     </parent>
 
-    <name>Fermenter::Stout::Cookbook</name>
+    <name>Fermenter Legacy Frameworks::Stout::Cookbook</name>
     <description>Parent POM containing a cookbook of Stout patterns</description>
 
     <artifactId>stout-cookbook-parent</artifactId>

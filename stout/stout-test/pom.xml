@@ -9,7 +9,7 @@
 
 	<artifactId>stout-test</artifactId>
 	<packaging>jar</packaging>
-	<name>Fermenter::Stout::Test</name>
+	<name>Fermenter Legacy Frameworks::Stout::Test</name>
 	<description>Provides test support for Stout - ONLY USE VIA TEST SCOPE</description>
 
 	<dependencies>

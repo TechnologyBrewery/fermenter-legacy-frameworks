@@ -8,7 +8,7 @@
 		<version>2.9.0-SNAPSHOT</version>
 	</parent>
 
-	<name>Fermenter::Stout::Cookbook::Domain</name>
+	<name>Fermenter Legacy Frameworks::Stout::Cookbook::Domain</name>
 	<description>An application of the MDA generation portion of Stout to test and demonstrate key concepts</description>
 
 	<artifactId>stout-cookbook-domain</artifactId>

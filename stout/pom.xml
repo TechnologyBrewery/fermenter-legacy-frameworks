@@ -4,7 +4,7 @@
 
 	<parent>
 		<groupId>org.technologybrewery.fermenter</groupId>
-		<artifactId>root</artifactId>
+		<artifactId>fermenter-legacy-frameworks</artifactId>
 		<version>2.9.0-SNAPSHOT</version>
 	</parent>
 
@@ -12,7 +12,7 @@
 	<artifactId>stout</artifactId>
 	<packaging>pom</packaging>
 
-	<name>Fermenter::Stout</name>
+	<name>Fermenter Legacy Frameworks::Stout</name>
 	<description>
 		Stout is a Java Fermenter Framework that uses fermenter-mda to generate JEE and Servlet compatible applications
 	</description>

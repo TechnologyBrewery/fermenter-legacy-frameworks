@@ -4,25 +4,19 @@
     <parent>
         <groupId>org.technologybrewery</groupId>
         <artifactId>parent</artifactId>
-        <version>1</version>
+        <version>2</version>
     </parent>
 
     <groupId>org.technologybrewery.fermenter</groupId>
     <version>2.9.0-SNAPSHOT</version>
-    <artifactId>root</artifactId>
+    <artifactId>fermenter-legacy-frameworks</artifactId>
     <packaging>pom</packaging>
 
-    <name>Fermenter</name>
+    <name>Fermenter Legacy Frameworks</name>
     <description>
-        In brewing, a fermenter is a vessel in which unfinished ingredients become nearly finished beer.
-        In Model Driven Architecture, Fermenter is a project that converts functional concepts into nearly finished
-        applications. This approach allows for the quick definition and assembly of applications with the focus on
-        functional concepts rather than technical underpinnings. Fermenter is an MDA engine that allows common
-        concepts to be modeled and spawn any number of generated source files. In turn, this allows developers
-        to focus more time on business logic, less time on technical underpinnings, and achieve extremely high levels
-        of architectural conformity.
+        Historic frameworks created that leverage Fermenter MDA.
     </description>
-    <url>https://github.com/TechnologyBrewery/fermenter</url>
+    <url>https://github.com/TechnologyBrewery/fermenter-legacy-frameworks</url>
 
     <licenses>
         <license>
@@ -48,24 +42,23 @@
     </developers>
 
     <scm>
-        <connection>scm:git:ssh://git@github.com/TechnologyBrewery/fermenter.git</connection>
-        <developerConnection>scm:git:ssh://git@github.com/TechnologyBrewery/fermenter.git</developerConnection>
-        <url>https://github.com/TechnologyBrewery/fermenter</url>
+        <connection>scm:git:ssh://git@github.com/TechnologyBrewery/fermenter-legacy-frameworks.git</connection>
+        <developerConnection>scm:git:ssh://git@github.com/TechnologyBrewery/fermenter-legacy-frameworks.git</developerConnection>
+        <url>https://github.com/TechnologyBrewery/fermenter-legacy-frameworks</url>
         <tag>HEAD</tag>
     </scm>
 
     <modules>
-        <module>fermenter-mda</module>
         <module>stout</module>
         <module>ale</module>
         <module>docker</module>
     </modules>
 
     <properties>
-        <cucumber.version>1.2.5</cucumber.version>
-        <habushu.version>2.1.0</habushu.version>
+        <cucumber.version>1.2.6</cucumber.version>
+        <habushu.version>2.3.0</habushu.version>
         <log4j.version>2.7</log4j.version>
-        <slf4j.version>2.0.1</slf4j.version>
+        <slf4j.version>2.0.7</slf4j.version>
     </properties>
 
     <dependencyManagement>
@@ -231,11 +224,6 @@
                 <groupId>org.sonatype.plugins</groupId>
                 <artifactId>nexus-staging-maven-plugin</artifactId>
                 <extensions>true</extensions>
-                <configuration>
-                    <serverId>ossrh</serverId>
-                    <nexusUrl>https://s01.oss.sonatype.org/</nexusUrl>
-                    <autoReleaseAfterClose>true</autoReleaseAfterClose>
-                </configuration>
             </plugin>
         </plugins>
     </build>
@@ -258,7 +246,6 @@
                 that cannot be automatically installed through Maven -->
             <id>with-python-support</id>
             <modules>
-                <module>fermenter-mda</module>
                 <module>stout</module>
                 <module>ale</module>
                 <module>docker</module>

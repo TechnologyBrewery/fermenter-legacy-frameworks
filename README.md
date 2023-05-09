@@ -1,5 +1,5 @@
 # Fermenter #
-[![Maven Central](https://img.shields.io/maven-central/v/org.technologybrewery.fermenter/root.svg)](https://search.maven.org/#search%7Cgav%7C1%7Cg%3A%22org.technologybrewery.fermenter%22%20AND%20a%3A%22root%22)
+[![Maven Central](https://img.shields.io/maven-central/v/org.technologybrewery.fermenter/fermenter-legacy-frameworks.svg)](https://search.maven.org/#search%7Cgav%7C1%7Cg%3A%22org.technologybrewery.fermenter%22%20AND%20a%3A%22fermenter-legacy-frameworks%22)
 [![License](https://img.shields.io/github/license/mashape/apistatus.svg)](https://opensource.org/licenses/mit)
 
 In brewing, a fermenter is a vessel in which unfinished ingredients become nearly finished beer. In Model Driven Architecture, Fermenter is a project that converts functional concepts into nearly finished applications. This approach allows for the quick definition and assembly of applications with the focus on functional concepts rather than technical underpinnings.
@@ -22,20 +22,21 @@ Fermenter will generate source into the folder structure appropriate for the typ
 Fermenter's default framework, called `stout`, blends best practices from Spring, Jackson, JPA, and other libraries to construct cohesive Java Servlet compatible web applications.  The resulting generated source uses object oriented concepts to stub out locations for business logic and provides key extension points to modify default functionality where necessary.  Please see the `stout-cookbook-domain` module for examples of all the model concepts in action.  Additionally, you can use the `integration-test` Maven profile to automatically download and execute the examples in a live Tomcat container.
 
 ## Ale ##
-
 Ale is a Fermenter framework that makes it easier for developers to utilize [Angular](https://angular.io/) best practices and leverage a consistent frontend base layer. Generated base layer support includes entity models, services, and some basic UI components which allows for less time to be spent writing scaffolding and more time to be spent on complex high-value visualization areas.  See the `ale-cookbook-angular` module for a demonstrative example of how Ale may be used.
 
 ## Brett ##
-
 Contrary to how Brettanomyces (i.e. "Brett") is a yeast that can yield unpredictable results when brewing, the `brett` Fermenter framework helps developers institute enterprise development and configuration management best practices to the often unpredictable world of Python development.  `brett` facilitates the generation of Python projects that align with [Habushu](https://github.com/TechnologyBrewery/habushu/) standards.  Due to the Habushu's usage of Python build tools that currently must be manually installed, Fermenter developers must opt-in to build `brett` modules by using  `with-python-support` Maven profile (i.e. `mvn clean install -Pwith-python-support`). See the `brett-cookbook` for an example of how `brett` combines Fermenter-driven Python module generation with an automated DevOps lifecycle managed through Habushu.
 
-# Distribution Channel
+# Repository Structure
+This repository contains the legacy Fermenter frameworks described above.  The `fermenter-mda` plugin itself is located
+in https://github.com/TechnologyBrewery/fermenter.
 
+# Distribution Channel
 Want Fermenter in your project? As demonstrated in the `stout-cookbook-domain` project, add the following Maven plugin declaration and dependency to your project from Maven Central: 
 
 ```xml
 <properties>
-	<fermenter.version>2.5.0</fermenter.version>
+	<fermenter.version>LATEST VERSION HERE (e.g., 2.9.0)</fermenter.version>
 </properties>
 <build>
 	<plugins>

@@ -8,7 +8,7 @@
 		<version>2.9.0-SNAPSHOT</version>
 	</parent>
 
-	<name>Fermenter::Stout::Web Container MDA Resources</name>
+	<name>Fermenter Legacy Frameworks::Stout::Web Container MDA Resources</name>
 	<description>
 		Contains resources for generating application code that instantiates Stout-compliant
         architectures deployed to a servlet container
