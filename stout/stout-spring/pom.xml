@@ -6,7 +6,7 @@
 		<version>2.9.0-SNAPSHOT</version>
 	</parent>
 
-	<name>Fermenter::Stout::Spring</name>
+	<name>Fermenter Legacy Frameworks::Stout::Spring</name>
 	<description>Provides base functionality and patterns for utilizing Spring to provide core 
 		business object and business service needs, such as dependency injection, object 
 		lifecycle management, transaction management, and data access</description>

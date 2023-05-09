@@ -8,7 +8,7 @@
         <version>2.9.0-SNAPSHOT</version>
     </parent>
 
-    <name>Fermenter::Stout::Spring MDA Resources</name>
+    <name>Fermenter Legacy Frameworks::Stout::Spring MDA Resources</name>
     <description>
 		Contains resources for generating application code that realizes a 
 		Spring-based business object and business service architecture 

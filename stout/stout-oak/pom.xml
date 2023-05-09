@@ -6,7 +6,7 @@
 		<version>2.9.0-SNAPSHOT</version>
 	</parent>
 
-	<name>Fermenter::Stout::Jackrabbit Oak</name>
+	<name>Fermenter Legacy Frameworks::Stout::Jackrabbit Oak</name>
 	<description>Provides base functionality and patterns for utilizing Jackrabbit Oak content management capabilities</description>
 	<modelVersion>4.0.0</modelVersion>
 	<artifactId>stout-oak</artifactId>

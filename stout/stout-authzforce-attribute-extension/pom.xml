@@ -6,7 +6,7 @@
 		<version>2.9.0-SNAPSHOT</version>
 	</parent>
 
-	<name>Fermenter::Stout::Authzforce Attribute Extension</name>
+	<name>Fermenter Legacy Frameworks::Stout::Authzforce Attribute Extension</name>
 	<description>
 		Provides custom attribute extension utilizing Authzforce.	
 	</description>

@@ -8,7 +8,7 @@
 		<version>2.9.0-SNAPSHOT</version>
 	</parent>
 
-	<name>Fermenter::Stout::Cookbook::Referencing Domain</name>
+	<name>Fermenter Legacy Frameworks::Stout::Cookbook::Referencing Domain</name>
 	<description>An application of the MDA generation portion of Stout that combines local and remote metatdata assets</description>
 
 	<artifactId>stout-cookbook-referencing-domain</artifactId>

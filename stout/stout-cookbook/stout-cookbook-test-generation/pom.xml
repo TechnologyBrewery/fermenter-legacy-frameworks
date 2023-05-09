@@ -8,7 +8,7 @@
 		<version>2.9.0-SNAPSHOT</version>
 	</parent>
 
-	<name>Fermenter::Stout::Cookbook::Test Generation</name>
+	<name>Fermenter Legacy Frameworks::Stout::Cookbook::Test Generation</name>
 	<description>An application of the MDA generation to create test artifacts</description>
 
 	<artifactId>stout-cookbook-test-generation</artifactId>
